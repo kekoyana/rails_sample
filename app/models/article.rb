@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 class Article < ApplicationRecord
-  include ImageUploader::Attachment(:file)
+  include FileUploader::Attachment(:file)
 end

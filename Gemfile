@@ -10,6 +10,7 @@ gem 'pg'
 
 gem 'bootsnap'
 gem 'haml-rails'
+gem 'image_processing'
 gem 'puma'
 gem 'ruby-vips'
 gem 'shrine'
