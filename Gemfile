@@ -10,8 +10,8 @@ gem 'pg'
 
 gem 'bootsnap'
 gem 'haml-rails'
-gem 'shrine'
 gem 'puma'
+gem 'shrine'
 
 group :development, :test do
   gem 'brakeman', require: false
