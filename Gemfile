@@ -11,6 +11,7 @@ gem 'pg'
 gem 'bootsnap'
 gem 'haml-rails'
 gem 'puma'
+gem 'ruby-vips'
 gem 'shrine'
 
 group :development, :test do
