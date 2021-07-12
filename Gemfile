@@ -23,7 +23,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'annotate'
   gem 'listen'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
