@@ -10,6 +10,7 @@ gem 'pg'
 
 gem 'bootsnap'
 gem 'haml-rails'
+gem 'shrine'
 gem 'puma'
 
 group :development, :test do
