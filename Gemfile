@@ -10,7 +10,10 @@ gem 'pg'
 
 gem 'bootsnap'
 gem 'haml-rails'
+gem 'image_processing'
 gem 'puma'
+gem 'ruby-vips'
+gem 'shrine'
 
 group :development, :test do
   gem 'brakeman', require: false
@@ -22,7 +25,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'annotate'
   gem 'listen'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false

@@ -17,6 +17,7 @@ RUN apk add --update --no-cache \
     curl \
     vim \
     wget \
+    vips-dev \
     chromium \
     chromium-chromedriver && \
     gem install bundler -v ${BUNDLER_VERSION}
